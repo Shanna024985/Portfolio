@@ -1,9 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import MainPage from "./MainPage";
 import IntroOfMe from "./IntroOfMe";
+import MyProjects from "./MyProjects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +11,7 @@ function App() {
     <>
         <MainPage />
         <IntroOfMe/>
+        <MyProjects/>
     </>
   );
 }

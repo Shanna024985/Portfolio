@@ -1,8 +1,10 @@
-import React from 'react'
 
 const MyProjects = () => {
   return (
-    <div>MyProjects</div>
+    <div className='containerBackground'>
+      <h1 className='text-white'>My Projects</h1>
+
+    </div>
   )
 }
 
