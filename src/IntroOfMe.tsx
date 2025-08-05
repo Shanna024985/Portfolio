@@ -1,9 +1,9 @@
-
+import image from "../public/IMG_8172.jpg"
 const IntroOfMe = () => {
   return (
     <div className="p-4 text-left flex mb-4" id="moreAboutMe">
       <div className="flex-1/2 justify-center content-center">
-        <img src="../public/IMG_8172.jpg" alt="imageOfMe!" className="h-auto w-[50%] justify-self-center"/>
+        <img src={image} alt="imageOfMe!" className="h-auto w-[50%] justify-self-center"/>
       </div>
       <div className="flex-1/2">
         <h1>More about me!</h1>
