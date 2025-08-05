@@ -13,8 +13,10 @@ const MainPage = () => {
             <a href="#moreAboutMe">
               <h1 className="text-white font-normal">About me!</h1>
             </a>
+            <a href="#myProjects">
+            <h1 className="text-white font-normal">My projects</h1>
 
-            <h1>My projects</h1>
+            </a>
             <h1>Contact</h1>
           </div>
         </div>

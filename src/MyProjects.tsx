@@ -4,7 +4,7 @@ import app from "../public/Screenshot 2025-08-05 110424.png"
 
 const MyProjects = () => {
   return (
-    <div className='containerBackground p-5'>
+    <div className='containerBackground p-5' id="myProjects">
       <h1 className='text-white'>My Projects</h1>
       <div className="flex p-6 gap-7 text-white">
         <div className="flex-1/3">
