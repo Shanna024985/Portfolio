@@ -2,6 +2,7 @@ import "./App.css";
 import MainPage from "./MainPage";
 import IntroOfMe from "./IntroOfMe";
 import MyProjects from "./MyProjects";
+import ContactMe from "./ContactMe";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <MainPage />
         <IntroOfMe/>
         <MyProjects/>
+        <ContactMe/>
     </>
   );
 }

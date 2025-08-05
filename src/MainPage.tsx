@@ -17,7 +17,10 @@ const MainPage = () => {
             <h1 className="text-white font-normal">My projects</h1>
 
             </a>
-            <h1>Contact</h1>
+            <a href="#contactMe">
+            <h1 className="text-white font-normal">Contact</h1>
+
+            </a>
           </div>
         </div>
       </div>
